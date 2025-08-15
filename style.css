@@ -1,0 +1,18 @@
+@font-face{
+    src: url(fonts/InstrumentSans-VariableFont_wdth\,wght.ttf);
+    font-family: Instrument Sans;
+}
+@font-face{
+    src: url(fonts/Lexend-VariableFont_wght.ttf);
+    font-family: lexend;
+}
+
+h1{
+    font-family: lexend, 'Courier New', Courier, monospace;
+}
+p{
+    font-family: 'Instrument Sans','Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+}
