@@ -1,14 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 
 <head>
-    <title>Songs lyrics</title>
-    <link rel="icon" type="images/png" href="images/favicon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>List of lyrics</title>
+    <link rel="icon" type="images/png" href="media/images/favicon.png">    
+    
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/lyrics.css">
 </head>
 
 <body>
     <header>
-        <h1>Song lyrics</h1>
+        <h1>List of lyrics</h1>
 
         <a href="index.html">
             <button style="font-size:15px;">Home</button>
@@ -17,36 +22,40 @@
     </header>
 
     <main>
-        List of musics:
-        <ul>
-            <li><u>Huntrix - Golden</u></li>
-            <li>...</li>
-        </ul>
-        <hr>
 
-        <h2>Golden</h1>
-        <h4>by HUNTRIX</h4>
+        <div id="list-musics">
+            <p>List of musics:</p>
+            <ul>
+                <li><u>Huntrix - Golden</u></li>
+                <li>I don't want to be an engineer</li>
+                <li>...</li>
+            </ul>
+        </div>
 
-        <a href="https://www.youtube.com/watch?v=arLr3YWjtUg" target="_blank"
-            title="Click to redirect to youtube video.">
-            <img src="images/album.jpg" alt="Album cover" width="200px">
-        </a>
-        <br>
+        <div id="music">
+            <div id="music-title" class="group-music-title">
+                <div class="music-title">
+                    <h1>Golden</h1>
+                    <h4>by HUNTRIX</h4>
+                </div>
+                <div class="music-title">
+                    <a href="https://www.youtube.com/watch?v=arLr3YWjtUg" target="_blank"
+                    title="Click to redirect to youtube video." id="album-cover">
+                        <img src="media/images/album.jpg" alt="Album cover" width="200px">
+                    </a>
+                </div>
+            </div>
 
-        <video src="videos/golden.mp4" width="256px" controls></video>
-        <br>
+            <div id="music-audio">
+                <p>Play the music:</p>
+                <audio controls>
+                    <source src="media/audios/golden.m4a" type="audio/mp4">
+                </audio>
+            </div>
 
-        <a href="https://www.youtube.com/watch?v=arLr3YWjtUg" target="_blank">
-            Open on Youtube
-        </a>
-
-        <p>Play the music</p>
-        <audio controls>
-            <source src="audios/golden.m4a" type="audio/mp4">
-        </audio>
-
-        <p>Lyric:</p>
-        <pre>
+            <div id="music-lyric">
+                <p>Lyric:</p>
+                <pre>
             I was a ghost, I was alone, hah
             어두워진, hah, 앞길 속에 (ah)
             Given the throne, I didn't know how to believe
@@ -99,7 +108,20 @@
             밝게 빛나는 우린
             You know that it's our time, no fears, no lies
             That's who we're born to be
-        </pre>
+                </pre>
+            </div>
+
+            <div id="music-clip">
+                <p>Watch the clipe:</p>
+                <video src="media/videos/golden.mp4" width="256px" controls></video>
+                <br>
+
+                <a href="https://www.youtube.com/watch?v=arLr3YWjtUg" target="_blank">
+                    Open on Youtube
+                </a>
+            </div>            
+        </div>
+
     </main>
 
     <footer>
