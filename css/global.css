@@ -1,0 +1,51 @@
+@font-face{
+    src: url(../fonts/InstrumentSans-VariableFont_wdth\,wght.ttf);
+    font-family: Instrument Sans;
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    src: url(../fonts/Lexend-VariableFont_wght.ttf);
+    font-family: lexend;
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Reset básico para evitar estilos padrões diferentes em cada navegador */
+* {
+    /* boa prática?
+    margin: 0;
+    padding: 0;  */
+    box-sizing: border-box;
+}
+
+/* Fonte e cor padrão */
+body {
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+/* Classe para centralizar um container */
+/* .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px;
+} */
+
+/* Links padrão */
+a {
+    /* text-decoration: none; */
+    /* color: inherit; */
+}
+a:hover {
+    opacity: 0.8;
+}
+
+h1{
+    font-family: 'lexend', 'Courier New', Courier, monospace;
+}
+p{
+    font-family: 'Instrument Sans','Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+}

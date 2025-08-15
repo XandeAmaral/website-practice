@@ -1,0 +1,20 @@
+/* tirar */
+#album-cover{
+    float:right
+}
+
+
+#list-musics{
+    border-bottom: 1px solid;
+}
+
+.group-music-title{
+    border: 1px solid;
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.music-title{
+    flex: 1;
+}
