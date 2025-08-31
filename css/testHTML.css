@@ -1,0 +1,58 @@
+
+/*  DROPDOWN MENU */
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown button{
+    color: hsl(0, 0%, 0%);
+    background: hsl(0, 0%, 80%);
+    border: none;
+    padding: 10px 15px;
+}
+
+.dropdown-options {
+    position: absolute;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    display: none;
+}
+
+.dropdown-options a{
+    display: block;
+    padding: 10px 20px;
+    background-color: hsl(0, 0%, 85%);
+}
+
+.dropdown button:hover {
+    background: hsl(0, 0%, 76%);
+}
+
+.dropdown:hover .dropdown-options{
+    display: block;
+}
+
+.dropdown-options a:hover{
+    background-color: hsl(0, 0%, 78%);
+}
+
+/* HORIZONTAL MENU */
+
+.h-menu {
+    background-color: hsl(0, 0%, 21%);
+}
+
+.h-menu-options {
+    text-align: center;
+}
+
+.h-menu-options button {
+    padding: 15px 20px;
+    border: none;
+    background-color: hsl(0, 0%, 34%);
+    color: hsl(0, 0%, 95%);
+    border-radius: 5px;
+}
+
+.h-menu-options button:hover {
+    background-color: hsl(0, 0%, 40%);
+}
