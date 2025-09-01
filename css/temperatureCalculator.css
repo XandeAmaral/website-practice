@@ -1,0 +1,67 @@
+label{
+    font-size: 2em;
+}
+
+button{ 
+    padding: 10px 10px;
+    font-size: 1.1em;
+    border-radius: 15px;
+    border: none;
+    background-color: hsl(0, 0%, 83%);
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+.temperature-calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.temperature-calculator_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid;
+    padding: 20px;
+    gap: 10px;
+}
+
+.temperature-calculator_title{
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.temperature-calculator_body{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.temperature-calculator_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.temperature-calculator_result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    padding-left: 20px;
+}
+
+.temperature-calculator_input{
+    font-size: 1.5em;
+}
+
+.temperature-calculator_button{
+    font-size: 1.5em;
+}

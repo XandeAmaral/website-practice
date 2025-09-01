@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Test webpage</title>
+    <link rel="icon" type="images/png" href="media/images/favicon.png">
+
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/temperatureCalculator.css">
+</head>
+
+<body>
+    <header>
+        <h1>Temperature calculator</h1>
+        
+        <a href="index.html">
+            <button>Home</button>
+        </a>
+        <hr>
+    </header>
+
+    <main>
+        <div class="temperature-calculator">
+            <div class="temperature-calculator_container">
+                <div class="temperature-calculator_title">
+                    <label><u>Temperature Converter</u></label>
+                </div>
+                <div class="temperature-calculator_body">
+                    <div class="temperature-calculator_form">
+                        <label>Insert the temperature:</label><br>
+                        <input type="text" class="temperature-calculator_input" id="userValue"/><br>
+
+                        <div class="temperature-calculator_options">
+                            <input id="celsiusToFaren" type="radio" name="tempOpt"/>
+                            <label for="celsiusToFaren">Celsius to Farenheit</label><br>
+
+                            <input id="farenToCelsius" type="radio" name="tempOpt"/>
+                            <label for="farenToCelsius">Farenheit to Celsius</label>
+                        </div>
+
+                        <button class="temperature-calculator_button" id="btnCalcTemp">Calculate</button>
+                    </div>
+                    <div class="temperature-calculator_result">
+                        <label id="resultTempConvert"></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="scripts/temperatureCalculator.js"></script>
+    </main>
+
+    <footer>
+        <hr>
+        author: Alexandre Amaral<br>
+        <small><a href="mailto:alexandrecamaral22@gmail.com">alexandrecamaral22@gmail.com</a></small>
+    </footer>
+</body>
+</html>
