@@ -1,3 +1,21 @@
+/* position sticky */
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    position: static;
+    top: 0px;
+}
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: azure;
+    position: sticky;
+    top: 50px;
+    left: 50px
+}
 
 /*  DROPDOWN MENU */
 .dropdown {

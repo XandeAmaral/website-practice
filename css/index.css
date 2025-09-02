@@ -1,0 +1,19 @@
+
+.nav-options ul{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 19%);
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav-options a{
+    text-decoration: none;
+    color: hsl(0, 3%, 93%);
+    padding: 5px 10px;
+    display: block;
+    text-align: center;
+}
+
+.nav-options a:hover{
+    background-color: hsl(0, 0%, 33%);
+}
