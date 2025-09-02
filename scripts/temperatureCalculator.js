@@ -9,11 +9,13 @@ btnCalcTemp.onclick = function(){
     let result;
 
     if (celsiusToFaren.checked){
-        result = converToFaren(userValue).toFixed(2);
+        result = converToFaren(userValue).toFixed(1);
         result = `${result} °F`;
-    } else {
-        result = convertToCelsius(userValue).toFixed(2);
+    } else if (farenToCelsius.checked) {
+        result = convertToCelsius(userValue).toFixed(1);
         result = `${result} °C`;
+    } else {
+        result = "Select a unit";
     };
 
     txtResult.textContent = result;
