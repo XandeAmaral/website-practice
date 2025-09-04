@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test webpage</title>
     <link rel="icon" type="images/png" href="media/images/favicon.png">
 
@@ -14,7 +14,7 @@
 <body>
     <header>
         <h1>Temperature calculator</h1>
-        
+
         <a href="index.html">
             <button>Home</button>
         </a>
@@ -23,28 +23,26 @@
 
     <main>
         <div class="temperature-calculator">
-            <div class="temperature-calculator_container">
-                <div class="temperature-calculator_title">
-                    <label><u>Temperature converter</u></label>
+            <div class="temperature-calculator_title">
+                <label>Temperature converter</label>
+            </div>
+            <div class="temperature-calculator_body">
+                <div class="temperature-calculator_form">
+                    <label>Insert the temperature:</label><br>
+                    <input type="text" class="temperature-calculator_input" id="userValue" value="0" /><br>
+
+                    <div class="temperature-calculator_options">
+                        <input id="celsiusToFaren" type="radio" name="tempOpt" />
+                        <label for="celsiusToFaren">Celsius to Farenheit</label><br>
+
+                        <input id="farenToCelsius" type="radio" name="tempOpt" />
+                        <label for="farenToCelsius">Farenheit to Celsius</label>
+                    </div>
+
+                    <button class="temperature-calculator_button" id="btnCalcTemp">Calculate</button>
                 </div>
-                <div class="temperature-calculator_body">
-                    <div class="temperature-calculator_form">
-                        <label>Insert the temperature:</label><br>
-                        <input type="text" class="temperature-calculator_input" id="userValue" value="0"/><br>
-
-                        <div class="temperature-calculator_options">
-                            <input id="celsiusToFaren" type="radio" name="tempOpt"/>
-                            <label for="celsiusToFaren">Celsius to Farenheit</label><br>
-
-                            <input id="farenToCelsius" type="radio" name="tempOpt"/>
-                            <label for="farenToCelsius">Farenheit to Celsius</label>
-                        </div>
-
-                        <button class="temperature-calculator_button" id="btnCalcTemp">Calculate</button>
-                    </div>
-                    <div class="temperature-calculator_result">
-                        <label id="resultTempConvert"></label>
-                    </div>
+                <div class="temperature-calculator_result">
+                    <label id="resultTempConvert"></label>
                 </div>
             </div>
         </div>
@@ -58,4 +56,5 @@
         <small><a href="mailto:alexandrecamaral22@gmail.com">alexandrecamaral22@gmail.com</a></small>
     </footer>
 </body>
+
 </html>
