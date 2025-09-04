@@ -1,12 +1,25 @@
+.nav-options {
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 19%);
+}
 
 .nav-options ul{
     list-style-type: none;
-    background-color: hsl(0, 0%, 19%);
     padding: 0px;
     margin: 0px;
+    border-radius: 10px;
+}
+
+.nav-options li {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid hsl(0, 0%, 100%);
 }
 
 .nav-options a{
+    font-size: 1.2rem;
     text-decoration: none;
     color: hsl(0, 3%, 93%);
     padding: 5px 10px;
@@ -16,4 +29,5 @@
 
 .nav-options a:hover{
     background-color: hsl(0, 0%, 33%);
+    border-radius: 10px;
 }

@@ -1,0 +1,90 @@
+.dice-rool {
+    box-shadow: 1px 1px 5px hsl(0, 0%, 55%);
+    background-color: hsl(314, 12%, 58%);
+    color: white;
+    max-width: 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.top-row {
+    display: flex;
+    flex: 1;
+}
+
+.dice-rool_result {
+    width: 250px;
+    background-color: hsl(0, 0%, 95%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: inset -1px -1px 5px hsl(0, 0%, 55%);
+}
+
+.dice-rool_result label {
+    color: hsl(0, 0%, 0%);
+    font-size: 3rem;
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.dice-roll_button {
+    width: 100%;
+    text-align: center;
+}
+
+.dice-roll_button button {
+    background-color: hsl(315, 18%, 45%);
+    color: hsl(0, 0%, 95%);
+    margin: 10px;
+    visibility: hidden;
+}
+
+.dice-rool_types {
+    min-width: 250px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.dice-rool_types ul {
+    padding: 0px;
+}
+
+.dice-rool_types label {
+    font-size: 1.1rem;
+    text-decoration: underline;
+}
+
+.dice-rool_types li {
+    list-style-type: none;
+    margin-top: 5px;
+}
+
+.dice-rool_types li:hover {
+    background-color: hsla(216, 29%, 49%, 0.842);
+    border-radius: 10px;
+}
+
+.dice-roll_previous-results {
+    margin: 10px;
+}
+
+.dice-roll_previous-results label{
+    font-size: 1.2rem;
+}
+
+.dice-roll_previous-results-title {
+    text-decoration: underline;
+}
+
+.selected {
+    background-color: hsla(216, 29%, 49%, 0.842);
+    border-radius: 10px;
+};

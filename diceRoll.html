@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Test webpage</title>
+    <link rel="icon" type="images/png" href="media/images/favicon.png">
+
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/diceRoll.css">
+</head>
+
+<body>
+    <header>
+        <h1>Dice roll</h1>
+        
+        <a href="index.html">
+            <button>Home</button>
+        </a>
+        <hr>
+    </header>
+
+    <main>
+        <div class="dice-rool">
+            <div class="top-row">
+                <div class="dice-rool_result">
+                    <label id="result">0</label>
+                    <div class="dice-roll_button">
+                        <button id="btnRoll" class="dice-roll">Roll again</button>
+                    </div>
+                </div>
+                <div class="dice-rool_types">
+                    <ul>
+                        <label>Select the type of dice</label>
+                        <li id="d4"><a>D4</a></li>
+                        <li id="d6"><a>D6</a></li>
+                        <li id="d8"><a>D8</a></li>
+                        <li id="d10"><a>D10</a></li>
+                        <li id="d12"><a>D12</a></li>
+                        <li id="d20"><a>D20</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="dice-roll_previous-results">
+                <label class="dice-roll_previous-results-title">Previous results:</label><br><br>
+                <label id="previous-results"></label>
+            </div>
+        </div>
+
+        <script src="scripts/diceRoll.js"></script>
+    </main>
+</body>
